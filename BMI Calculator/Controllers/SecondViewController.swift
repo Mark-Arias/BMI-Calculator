@@ -7,6 +7,10 @@
 
 import UIKit
 
+/**
+ Note: this vc is not in active use in project.
+ was used earlier to demo programmatic UI dev.
+ */
 class SecondViewController: UIViewController {
     
     var bmiVal = "0.0"
@@ -23,7 +27,5 @@ class SecondViewController: UIViewController {
         label.text = bmiVal
         label.frame = CGRect(x: 0, y: 0, width: 100, height: 50)
         view.addSubview(label)
-        
-        
     }
 }
